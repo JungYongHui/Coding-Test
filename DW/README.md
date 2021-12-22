@@ -1,3 +1,4 @@
 # Coding-Test
 
-ddddd
+1. 스택
+2. 속도 : set > list
