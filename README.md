@@ -5,7 +5,7 @@
 deadline: ~12/23
 
 - [x] [1920 수 찾기](https://www.acmicpc.net/problem/1920) ✔ 용희
-- [ ] [10828 스택](https://www.acmicpc.net/problem/10828) ✔ 다윗
+- [x] [10828 스택](https://www.acmicpc.net/problem/10828) ✔ 다윗
 - [x] [1026 보물](https://www.acmicpc.net/problem/1026) ✔ 주한
 
 ## SET 1
