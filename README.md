@@ -8,6 +8,14 @@ deadline: ~12/23
 - [x] [10828 스택](https://www.acmicpc.net/problem/10828) ✔ 다윗
 - [x] [1026 보물](https://www.acmicpc.net/problem/1026) ✔ 주한
 
+## 2회차
+
+deadline: ~12/30
+
+- [ ] [5430 AC](https://www.acmicpc.net/problem/5430) ✔ 용희
+- [ ] [11650 좌표 정렬하기](https://www.acmicpc.net/problem/11650) ✔ 다윗
+- [ ] []() ✔ 주한
+
 ## SET 1
 
 ### 1-1. 탐색과 정렬 (1)
