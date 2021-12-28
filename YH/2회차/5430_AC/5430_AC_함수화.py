@@ -24,7 +24,7 @@ for i in range(T):
 
     for j in range(len(func)):
         if func[j] == 'R':
-            arr = R(arr)
+            R(arr)
         elif func[j] == 'D':
             D(arr)
 
