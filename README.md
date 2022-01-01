@@ -5,8 +5,18 @@
 deadline: ~12/23
 
 - [x] [1920 수 찾기](https://www.acmicpc.net/problem/1920) ✔ 용희
-- [ ] [10828 스택](https://www.acmicpc.net/problem/10828) ✔ 다윗
+- [x] [10828 스택](https://www.acmicpc.net/problem/10828) ✔ 다윗
 - [x] [1026 보물](https://www.acmicpc.net/problem/1026) ✔ 주한
+
+## 2회차
+
+deadline: ~12/30
+
+- [ ] [5430 AC](https://www.acmicpc.net/problem/5430) ✔ 용희
+- [ ] [11650 좌표 정렬하기](https://www.acmicpc.net/problem/11650) ✔ 다윗
+- [ ] [2750 수 정렬하기](https://www.acmicpc.net/problem/2750) ✔ 주한
+- [ ] [2751 수 정렬하기 2](https://www.acmicpc.net/problem/2751) ✔ 주한
+- [ ] [10989 수 정렬하기 3](https://www.acmicpc.net/problem/10989) ✔ 주한 # 3번 풀면서 1,2번 워밍없으로 풀면될 
 
 ## SET 1
 
