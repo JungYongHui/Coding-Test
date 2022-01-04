@@ -12,11 +12,19 @@ deadline: ~12/23
 
 deadline: ~12/30
 
-- [ ] [5430 AC](https://www.acmicpc.net/problem/5430) ✔ 용희
-- [ ] [11650 좌표 정렬하기](https://www.acmicpc.net/problem/11650) ✔ 다윗
-- [ ] [2750 수 정렬하기](https://www.acmicpc.net/problem/2750) ✔ 주한
-- [ ] [2751 수 정렬하기 2](https://www.acmicpc.net/problem/2751) ✔ 주한
-- [ ] [10989 수 정렬하기 3](https://www.acmicpc.net/problem/10989) ✔ 주한 # 3번 풀면서 1,2번 워밍없으로 풀면될 
+- [x] [5430 AC](https://www.acmicpc.net/problem/5430) ✔ 용희
+- [x] [11650 좌표 정렬하기](https://www.acmicpc.net/problem/11650) ✔ 다윗
+- [x] [2750 수 정렬하기](https://www.acmicpc.net/problem/2750) ✔ 주한
+- [x] [2751 수 정렬하기 2](https://www.acmicpc.net/problem/2751) ✔ 주한
+- [x] [10989 수 정렬하기 3](https://www.acmicpc.net/problem/10989) ✔ 주한 # 3번 풀면서 1,2번 워밍없으로 풀면됨
+
+## 3회차
+
+deadline: ~1/6
+
+- [ ] [_](_) ✔ 용희
+- [ ] [_](_) ✔ 다윗
+- [ ] [_](_) ✔ 주한
 
 ## SET 1
 
