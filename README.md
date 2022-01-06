@@ -22,8 +22,8 @@ deadline: ~12/30
 
 deadline: ~1/6
 
-- [ ] [10828 스택](https://www.acmicpc.net/problem/10828) ✔ 용희
-- [ ] [1406 에디터](https://www.acmicpc.net/problem/1406) ✔ 다윗
+- [x] [10815 숫자카드](https://www.acmicpc.net/problem/10815) ✔ 용희
+- [x] [1406 에디터](https://www.acmicpc.net/problem/1406) ✔ 다윗
 - [x] [1158 조세퍼스 문제](https://www.acmicpc.net/problem/1158) ✔ 주한
 
 ## SET 1

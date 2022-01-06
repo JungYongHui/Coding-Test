@@ -3,7 +3,7 @@
 ##############################################################################################
 input()
 n = set(map(int, input().split()))
-print(n)
+# print(n)
 input()
 m = list(map(int, input().split()))
 for i in m:
