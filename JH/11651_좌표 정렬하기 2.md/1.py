@@ -13,5 +13,7 @@ key = lambda x: (int(x[1]),int(x[0]))
 
 lst.sort(key=key)
 for xy in lst:
-    print(*xy)
+    print(*xy) # [x,y] -> x y
+    """ zip(x,y) -> (x,y)
+    *(x,y) -> x y """
 # %%

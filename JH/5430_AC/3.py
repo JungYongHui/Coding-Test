@@ -1,4 +1,4 @@
-# %%
+# %% 대 실패.. 숫자가 2자리임을 생각 못했음
 for _ in range(int(input())):
     C=input()
     l,r,d = 1,2*int(input()),1
