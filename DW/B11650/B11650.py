@@ -14,7 +14,8 @@ for _ in range(input):
     # list(map(func_int, input2)
 
     input2_box.append(input2)
-input2_box = sorted(input2_box)
+input2_box.sort()
+# input2_box = sorted(input2_box)
 
 for i in input2_box:
     print(i[0], i[1])
