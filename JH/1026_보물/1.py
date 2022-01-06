@@ -24,4 +24,3 @@ for i,j in zip(a,b):
     sum += i*j 
 
 print(sum)
-# %%
