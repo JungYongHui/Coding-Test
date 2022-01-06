@@ -24,7 +24,15 @@ deadline: ~1/6
 
 - [x] [10815 숫자카드](https://www.acmicpc.net/problem/10815) ✔ 용희
 - [x] [1406 에디터](https://www.acmicpc.net/problem/1406) ✔ 다윗
-- [x] [1158 조세퍼스 문제](https://www.acmicpc.net/problem/1158) ✔ 주한
+- [x] [1158 조세퍼러스 문제](https://www.acmicpc.net/problem/1158) ✔ 주한
+
+## 4회차
+
+deadline: ~1/13
+
+- [ ] [10867 중복 빼고 정렬하기](https://www.acmicpc.net/problem/10867) ✔ 용희
+- [ ] [1966 프린터 큐](https://www.acmicpc.net/problem/1966) ✔ 다윗
+- [ ] [10845 큐](https://www.acmicpc.net/problem/10845) ✔ 주한
 
 ## SET 1
 
