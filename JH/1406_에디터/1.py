@@ -43,8 +43,9 @@ for _ in range(num):
             a.append(b.pop())
         elif c== "B":
             a.pop()
-        else:
+        else:   
             a.append(c.lstrip("P "))
     except:
         continue
+
 print("".join(a)+"".join(reversed(b)))
