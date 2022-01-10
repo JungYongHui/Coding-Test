@@ -30,7 +30,7 @@ deadline: ~1/6
 
 deadline: ~1/13
 
-- [ ] [10867 중복 빼고 정렬하기](https://www.acmicpc.net/problem/10867) ✔ 용희
+- [x] [10867 중복 빼고 정렬하기](https://www.acmicpc.net/problem/10867) ✔ 용희
 - [ ] [1966 프린터 큐](https://www.acmicpc.net/problem/1966) ✔ 다윗
 - [ ] [10845 큐](https://www.acmicpc.net/problem/10845) ✔ 주한
 
