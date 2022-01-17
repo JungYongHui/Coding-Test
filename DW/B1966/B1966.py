@@ -1,53 +1,23 @@
-# import sys
+import sys
 
+f_input = int(sys.stdin.readline())
 
-# f_input = int(sys.stdin.readline())
-
-# for _ in range(f_input):
-#     n, t = list(map(int ,sys.stdin.readline().split()))
-#     printing = ['x' for _ in range(n)]
-#     printing[t] = 'target'
-#     important = list(map(int, sys.stdin.readline().split()))
-
-#     order = 0
-
-#     for imp in important:
-#         if imp == max(important):
-#             order +=1
-
-#             if printing[0] == 'target':
-#                 print('답:',order)
-#                 break
-
-#             else:
-#                 printing.pop(0)
-#                 important.pop(0)
-#         else:
-#             important.append(important.pop(0))
-#             printing.append(printing.pop(0))
-
-test_cases = int(input())
-
-for _ in range(test_cases):
-    n,m = list(map(int, input().split(" ")))
-    imp = list(map(int, input().split(" ")))
-    idx = list(range(len(imp)))
-    idx[m] = 'target'
-
-    # 순서
+for _ in range(f_input):
+    printing = list(map(int, sys.stdin.readline().split()))
+    print_list = list(range(printing[0]))
+    imp = list(map(int, sys.stdin.readline().split()))
+    print_list[printing[1]] = 'target'
+    
     order = 0
-       
-    for x in imp:
-        if x==max(imp):
+    while True:
+        if imp[0] == max(imp):
             order += 1
-                           
-            if idx[0]=='target':
+            if print_list[0] == 'target':
                 print(order)
                 break
             else:
+                print_list.pop(0)
                 imp.pop(0)
-                idx.pop(0)
-
         else:
+            print_list.append(print_list.pop(0))
             imp.append(imp.pop(0))
-            idx.append(idx.pop(0))
