@@ -8,7 +8,7 @@ def push(queue, element):
 
 def pop(queue):
     try:
-        pop,*queue = queue
+        pop, *queue = queue     
         print(pop)
     except ValueError:
         print(-1)
