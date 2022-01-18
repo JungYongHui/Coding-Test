@@ -1,29 +1,19 @@
-#%%
-n = 9
-operators = "> < < < > > > < <".split()
-operators = [True if i == '<' else False\
-    for i in operators]
-operators
-# %%
-ans = [0]
-i=0
-while i <= n:
-    if operators[i]:
-        for j in range(0,ans[i]):
-            if j not in ans[i]:
-                ans.append(j)
-                i+=1
-                break
-        else:
-            ans.append(ans.pop())
-    if operators[i]:
-        for j in range(9,ans[i],-1):
-            if j not in ans[i]:
-                ans.append(j)
-                i+=1
-                break
-        else:
-            ans.append(ans.pop()+1)
-#%%
-print(*range(10,5,-1))
-# %%
+n = int(input())
+arr = input().split()
+def func(a, l, b):
+    ans = [-1] * (n + 1)
+    i, j = 0, 0
+    while j < n:
+        if arr[j] == a:
+            for k in range(j, i - 1, -1):
+                ans[k] = l
+                l += b
+            i = j + 1
+        j += 1
+    for k in range(j, i - 1, -1):
+        ans[k] = l
+        l += b
+    print(''.join(map(str, ans)))
+    return
+func('>', 9, -1)
+func('<', 0, 1)
