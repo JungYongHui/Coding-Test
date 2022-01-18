@@ -34,6 +34,17 @@ deadline: ~1/13
 - [X] [1966 프린터 큐](https://www.acmicpc.net/problem/1966) ✔ 다윗
 - [X] [10845 큐](https://www.acmicpc.net/problem/10845) ✔ 주한
 
+## 5회차
+
+deadline: ~1/24
+
+- [ ] [10866 덱](https://www.acmicpc.net/problem/10866) ✔ 용희
+- [ ] [1874 스택 수열](https://www.acmicpc.net/problem/1874) ✔ 용희
+- [ ] [9012 괄호](https://www.acmicpc.net/problem/9012) ✔ 주한
+- [ ] [1406 에디터](https://www.acmicpc.net/problem/1406) ✔ 주한
+- [ ] [11651 좌표 정렬하기 2](https://www.acmicpc.net/problem/10845) ✔ 다윗
+
+
 ## SET 1
 
 ### 1-1. 탐색과 정렬 (1)
