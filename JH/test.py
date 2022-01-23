@@ -1,15 +1,9 @@
-#%%
-import pandas as pd
+str_ = input()
+l,r = 0,len(str_)-1
+ans=1
+while l<r:
+    if str_[l] != str_[r]:
+        ans = 0
+        break
 
-a = [
-    [1,0,0,0],
-    [1,0,0,1],
-    [0,0,0,1],
-    [0,0,1,0],
-    ]
-
-df = pd.DataFrame(a)
-df
-# %%
-df[df==1].index
-# %%
+print(ans)
