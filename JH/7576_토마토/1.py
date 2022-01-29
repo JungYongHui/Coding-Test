@@ -9,17 +9,18 @@ arr = [
 # %%
 from collections import deque
 from sys import stdin
+# input
 c_m,r_m = map(int,input().split())
 arr=[stdin.readline().split() for _ in range(r_m)]
+# 시작위치 결정
 start = []
 for i in range(r_m):
     for j in range(c_m):
         if arr[i][j]=='1':
             start.append((i,j))
-# print(start)
-# print(*arr,sep='\n')
-#%%
+# 너비 우선 탐색 함수 정의
 def bfs(start):
+
     q=deque(start)
     for r,c in start:
         arr[r][c] = 0
@@ -45,5 +46,3 @@ def bfs(start):
     return res
 
 print(bfs(start))
-# print(*arr,sep='\n')
-# %%
