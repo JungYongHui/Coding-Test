@@ -24,7 +24,6 @@
 #     [inf] * (c_m+2)
 #     ]
 #%%
-from collections import deque
 from sys import stdin
 
 inf = float("inf")
@@ -37,18 +36,19 @@ arr = [
     [inf] * (c_m+2)
     ]
 
-start = [(1,1)]
+start = {(1,1)}
 arr[1][1] = inf
-next=[]
-# 너비 우선 탐색 함수 정의
-def bfs(start):
 
-    q=deque(start)
+next=[]
+# 깊이 우선 탐색 함수 정의
+def dfs(start):
+
+    q=list(start)
     next = set()
     d_rc = ((1,0),(-1,0),(0,1),(0,-1))
 
     while q:
-        r,c = q.popleft()
+        r,c = q.pop()
 
         for d_r,d_c in d_rc:
             nr, nc = r+d_r, c+d_c
@@ -58,6 +58,7 @@ def bfs(start):
                 arr[nr][nc] = inf
             elif v == 1:
                 next.add((nr,nc))
+
     for nr,nc in next:
         arr[nr][nc] = 0
     
@@ -66,13 +67,11 @@ def bfs(start):
 cnt = 0
 
 while True:
-    next = bfs(start)
+    next = dfs(start)
     if not next:
         print(cnt)
         print(len(start))
         break
     start = next
     cnt+=1
-
-
 # %%
