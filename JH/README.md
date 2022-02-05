@@ -18,3 +18,4 @@ oooo 폴더로 이동 change directory
 commit 및 commit 메시지 남기기
 6. git push origin main :
 commit 한 내용을 레포에 올림 (끝)
+.
