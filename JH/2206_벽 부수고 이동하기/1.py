@@ -1,4 +1,5 @@
 #%%
+from sys import stdin
 n,m = 6,4
 map_ = [
     [0,1,0,0,],
