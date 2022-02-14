@@ -38,12 +38,19 @@ deadline: ~1/13
 
 deadline: ~1/24
 
-- [ ] [10866 덱](https://www.acmicpc.net/problem/10866) ✔ 용희
-- [ ] [1874 스택 수열](https://www.acmicpc.net/problem/1874) ✔ 용희
-- [ ] [9012 괄호](https://www.acmicpc.net/problem/9012) ✔ 주한
-- [ ] [1406 에디터](https://www.acmicpc.net/problem/1406) ✔ 주한
-- [ ] [11651 좌표 정렬하기 2](https://www.acmicpc.net/problem/10845) ✔ 다윗
+- [x] [10866 덱](https://www.acmicpc.net/problem/10866) ✔ 용희
+- [x] [1874 스택 수열](https://www.acmicpc.net/problem/1874) ✔ 용희
+- [x] [9012 괄호](https://www.acmicpc.net/problem/9012) ✔ 주한
+- [x] [1406 에디터](https://www.acmicpc.net/problem/1406) ✔ 주한
+- [x] [11651 좌표 정렬하기 2](https://www.acmicpc.net/problem/10845) ✔ 다윗
 
+## 6회차
+
+deadline: ~2/14
+
+- [ ] [6603 로또](https://www.acmicpc.net/problem/6603) ✔ 다윗
+- [ ] [1260 DFS와 BFS](https://www.acmicpc.net/problem/12604) ✔ 용희
+- [ ] [2609 쵀대공약수와 최소공배수](https://www.acmicpc.net/problem/2609) ✔ 주한
 
 ## SET 1
 
