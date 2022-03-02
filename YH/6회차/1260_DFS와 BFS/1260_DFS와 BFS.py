@@ -22,12 +22,14 @@ N, M, V = map(int, input().split())
 
 graph = [[0]*(N) for _ in range(N)]
 # graph (N=4인 경우)
-# [[0 0 0 0]
-# [0 0 0 0]
-# [0 0 0 0]
-# [0 0 0 0]]
+#     1 2 3 4
+# 1 [[0 1 1 1]
+# 2 [1 0 0 1]
+# 3 [1 0 0 1]
+# 4 [1 1 1 0]]
 visited = [False]*(N)
-# visited = [False False False False]
+# visited = [False False False True]
+# queue = []
 
 for _ in range(M):
     x, y = map(int, sys.stdin.readline().split())

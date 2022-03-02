@@ -1,5 +1,6 @@
 from itertools import combinations #자동으로 사전 순으로 정렬
 import sys
+
 input=sys.stdin.readline
 while 1:
     arr = input().split()
