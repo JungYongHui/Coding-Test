@@ -1,3 +1,14 @@
+# 벽 3개를 설치해야함
+# 그렇다면 어디에 설치해야 하는가?
+# graph를 입력 받을때, 0(빈공간)의 좌표를 따로 저장해둔다
+# -> 해당 좌표를 combination 해서 어느 빈 공간에 3개의 벽을 설치할지 정함
+
+# 1. 조합(combination) 함수 생성 - 3개의 벽 좌표를 추출하는 함수
+# ---- 조합의 총 개수 만큼 loop ----
+# 2. 조합에서 추출된 좌표를 graph에 적용한 후 bfs 돌린 결과 뽑기
+# ---- loop 끝 ----
+# 3. max(안전영역) 구하기
+
 from collections import deque
 
 n, m = map(int, input().split())
