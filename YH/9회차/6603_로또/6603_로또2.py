@@ -1,5 +1,6 @@
 # 조합을 DFS로 구현
 
+# dfs로 조합 구현하기
 def dfs(idx, list):
     if len(list) == lim:
         print(*list, end=' ')
@@ -12,7 +13,7 @@ def dfs(idx, list):
 while True:
     inp = list(map(int, input().split()))
     k, s = inp[0], inp[1:]
-    answer = []
+
     lim = 6
 
     if k == 0:
